@@ -12,6 +12,7 @@ class DemoApplicationTests {
 	void testCalc() {
 	  assertEquals(10, Calculator.add(4, 6));
       assertEquals(10, Calculator.subtract(90, 80));
+      assertEquals(10, Calculator.multiply(2, 5));
 	}
 
 }
