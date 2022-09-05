@@ -9,8 +9,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 class DemoApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void testCalc() {
 	  assertEquals(10, Calculator.add(4, 6));
+      assertEquals(10, Calculator.subtract(90, 80));
 	}
 
 }
